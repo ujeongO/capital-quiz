@@ -73,7 +73,25 @@ const initState = {
         },
         {
           text: "뉴욕",
+          isCorrect: false,
+        },
+      ],
+    },
+    {
+      q: "영국의 수도는?",
+      img: "/city/london.jpg",
+      a: [
+        {
+          text: "런던",
           isCorrect: true,
+        },
+        {
+          text: "맨체스터",
+          isCorrect: false,
+        },
+        {
+          text: "노팅엄",
+          isCorrect: false,
         },
       ],
     },
